@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.home-login{
+    background-image: url('../../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: slide 15s infinite; 
+}
+
+.login-form{
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255,.7);
+    border-radius: 5px;
+}
+
+.footer{
+    min-height: 70px;
+    background-color: #191919e0;
+    width: 100%;
+    position: fixed;
+    bottom: 0; 
+}
+
+.muro-div{
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+
+.fb {
+    background-color: #3B5998;
+    color: white;
+    opacity: 0.9;
+}
+
+.fb:hover {
+    opacity: 1;
+    color: white;
+}
+
+.negrita {
+
+    color: black;
+}
+
+/*/////////////////////////////////////////////////////////////////////////
+                            P E L I C U L A S
+/////////////////////////////////////////////////////////////////////////*/
+
+#listarPëliculas img{
+    margin: 5px;
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.slide-top1 {
+    -webkit-animation: slide-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-top2 {
+    -webkit-animation: slide-top 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-top 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-top3 {
+    -webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-top4 {
+    -webkit-animation: slide-top 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-top 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+
